@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	style="@style/GameButtonStyle"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	app:layout_constraintDimensionRatio="1:1"
+	app:layout_constraintVertical_chainStyle="packed">
+
+	<Button
+		android:id="@+id/squarey3x1"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toTopOf="@+id/squarey4x1"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toStartOf="@+id/squarey3x2"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toEndOf="@+id/squaery3x0"
+		app:layout_constraintTop_toBottomOf="@+id/squarey2x1"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squarey3x2"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toTopOf="@+id/squarey4x2"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toStartOf="@+id/squarey3x3"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toEndOf="@+id/squarey3x1"
+		app:layout_constraintTop_toBottomOf="@+id/squarey2x2"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squaery3x0"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toTopOf="@+id/squarey4x0"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toStartOf="@+id/squarey3x1"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/squarey3x0"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squarey3x4"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toTopOf="@+id/squarey4x4"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toStartOf="@+id/squaery3x5"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toEndOf="@+id/squarey3x3"
+		app:layout_constraintTop_toBottomOf="@+id/squarey2x4"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squaery3x5"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toTopOf="@+id/squarey4x5"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toEndOf="@+id/squarey3x4"
+		app:layout_constraintTop_toBottomOf="@+id/squarey2x5"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squarey3x3"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toTopOf="@+id/squarey4x3"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toStartOf="@+id/squarey3x4"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toEndOf="@+id/squarey3x2"
+		app:layout_constraintTop_toBottomOf="@+id/squarey2x3"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squarey4x2"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toStartOf="@+id/squarey4x3"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toEndOf="@+id/squarey4x1"
+		app:layout_constraintTop_toBottomOf="@+id/squarey3x2"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squarey4x1"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toStartOf="@+id/squarey4x2"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toEndOf="@+id/squarey4x0"
+		app:layout_constraintTop_toBottomOf="@+id/squarey3x1"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squarey4x3"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toStartOf="@+id/squarey4x4"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toEndOf="@+id/squarey4x2"
+		app:layout_constraintTop_toBottomOf="@+id/squarey3x3"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squarey4x4"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toStartOf="@+id/squarey4x5"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toEndOf="@+id/squarey4x3"
+		app:layout_constraintTop_toBottomOf="@+id/squarey3x4"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squarey4x5"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toEndOf="@+id/squarey4x4"
+		app:layout_constraintTop_toBottomOf="@+id/squaery3x5"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squarey4x0"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toStartOf="@+id/squarey4x1"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/squaery3x0"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squarey1x3"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toTopOf="@+id/squarey2x3"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toStartOf="@+id/squarey1x4"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toEndOf="@+id/squarey1x2"
+		app:layout_constraintTop_toBottomOf="@+id/squarey0x3"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squarey1x1"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toTopOf="@+id/squarey2x1"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toStartOf="@+id/squarey1x2"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toEndOf="@+id/squarey1x0"
+		app:layout_constraintTop_toBottomOf="@+id/squarey0x1"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squarey1x0"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toTopOf="@+id/squarey3x0"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toStartOf="@+id/squarey1x1"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/squarey0x0"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squarey1x4"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toTopOf="@+id/squarey2x4"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toStartOf="@+id/squarey1x5"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toEndOf="@+id/squarey1x3"
+		app:layout_constraintTop_toBottomOf="@+id/squarey0x4"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squarey1x5"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toTopOf="@+id/squarey2x5"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toEndOf="@+id/squarey1x4"
+		app:layout_constraintTop_toBottomOf="@+id/squarey0x5"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squarey1x2"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toTopOf="@+id/squarey2x2"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toStartOf="@+id/squarey1x3"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toEndOf="@+id/squarey1x1"
+		app:layout_constraintTop_toBottomOf="@+id/squarey0x2"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squarey2x2"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toTopOf="@+id/squarey3x2"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toStartOf="@+id/squarey2x3"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toEndOf="@+id/squarey2x1"
+		app:layout_constraintTop_toBottomOf="@+id/squarey1x2"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squarey2x4"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toTopOf="@+id/squarey3x4"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toStartOf="@+id/squarey2x5"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toEndOf="@+id/squarey2x3"
+		app:layout_constraintTop_toBottomOf="@+id/squarey1x4"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squarey3x0"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toTopOf="@+id/squaery3x0"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toStartOf="@+id/squarey2x1"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/squarey1x0"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squarey2x5"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toTopOf="@+id/squaery3x5"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toEndOf="@+id/squarey2x4"
+		app:layout_constraintTop_toBottomOf="@+id/squarey1x5"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squarey2x3"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toTopOf="@+id/squarey3x3"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toStartOf="@+id/squarey2x4"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toEndOf="@+id/squarey2x2"
+		app:layout_constraintTop_toBottomOf="@+id/squarey1x3"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squarey2x1"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toTopOf="@+id/squarey3x1"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toStartOf="@+id/squarey2x2"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toEndOf="@+id/squarey3x0"
+		app:layout_constraintTop_toBottomOf="@+id/squarey1x1"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squarey0x0"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toTopOf="@+id/squarey1x0"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toStartOf="@+id/squarey0x1"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squarey0x1"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toTopOf="@+id/squarey1x1"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toStartOf="@+id/squarey0x2"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toEndOf="@+id/squarey0x0"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squarey0x2"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toTopOf="@+id/squarey1x2"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toStartOf="@+id/squarey0x3"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toEndOf="@+id/squarey0x1"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squarey0x3"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toTopOf="@+id/squarey1x3"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toStartOf="@+id/squarey0x4"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toEndOf="@+id/squarey0x2"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squarey0x4"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toTopOf="@+id/squarey1x4"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toStartOf="@+id/squarey0x5"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toEndOf="@+id/squarey0x3"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintVertical_chainStyle="packed" />
+
+	<Button
+		android:id="@+id/squarey0x5"
+		style="@style/GameButtonStyle"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_margin="2dp"
+		app:layout_constraintBottom_toTopOf="@+id/squarey1x5"
+		app:layout_constraintDimensionRatio="1:1"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintHorizontal_chainStyle="packed"
+		app:layout_constraintStart_toEndOf="@+id/squarey0x4"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintVertical_chainStyle="packed" />
+</androidx.constraintlayout.widget.ConstraintLayout>
