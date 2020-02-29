@@ -3,13 +3,49 @@
 	<!-- Base application theme. -->
 	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
 		<!-- Customize your theme here. -->
-		<item name="colorPrimary">@color/colorPrimary</item>
-		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-		<item name="colorAccent">@color/colorAccent</item>
+<!--		<item name="colorPrimary">@color/colorPrimary</item>-->
+<!--		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--		<item name="colorAccent">@color/colorAccent</item>-->
 	</style>
 
-	<style name="GameButtonStyle" parent="TextAppearance.AppCompat.Button">
+	<style name="GameButtonStyle" parent="ThemeOverlay.AppCompat">
+<!--		style="@style/Widget.AppCompat.Button.Colored"-->
+<!--		android:theme="@style/Facebook.Button"-->
 		<item name="android:layout_margin">2dp</item>
+		<item name="colorAccent">@color/colorDefault</item>
+	</style>
+
+	<style name="GameButtonBlue" parent="GameButtonStyle">
+		<item name="colorAccent">@color/colorBlue</item>
+	</style>
+
+	<style name="GameButtonBlueSelected" parent="GameButtonStyle">
+		<item name="colorAccent">@color/colorBlueDark</item>
+	</style>
+
+	<style name="GameButtonBlueChoice" parent="GameButtonStyle">
+		<item name="colorAccent">@color/colorBlueSoft</item>
+	</style>
+
+	<style name="GameButtonRed" parent="GameButtonStyle">
+		<item name="colorAccent">@color/colorRed</item>
+	</style>
+
+	<style name="GameButtonRedSelected" parent="GameButtonStyle">
+		<item name="colorAccent">@color/colorRedDark</item>
+	</style>
+
+	<style name="GameButtonRedChoice" parent="GameButtonStyle">
+		<item name="colorAccent">@color/colorRedSoft</item>
+	</style>
+
+	<style name="RedRadio" parent="Theme.AppCompat.Light">
+		<item name="colorControlNormal">@color/colorRed</item>
+		<item name="colorControlActivated">@color/colorRed</item>
+	</style>
+	<style name="BlueRadio" parent="Theme.AppCompat.Light">
+		<item name="colorControlNormal">@color/colorBlue</item>
+		<item name="colorControlActivated">@color/colorBlue</item>
 	</style>
 
 </resources>
