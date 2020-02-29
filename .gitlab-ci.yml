@@ -7,7 +7,7 @@ variables:
   #DO NOT MODIFY THESE VALUES
   #
   ROOT_PATH: "/Users/testlab/testlab"
-  SUB_TOKEN: "h08uif2"
+  SUB_TOKEN: "EpCPqziF"
   BUILDS_PATH: "$ROOT_PATH/builds/$SUB_TOKEN/0/$CI_PROJECT_NAMESPACE/$CI_PROJECT_NAME"
   TESTLAB_RUNNER_PATH: "$ROOT_PATH/jar/TestlabRunner.jar"
   SPOON_RUNNER_PATH: "$ROOT_PATH/jar/libs/SpoonRunner.jar"
