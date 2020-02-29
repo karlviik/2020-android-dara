@@ -10,31 +10,51 @@
 		layout="@layout/versus_choice"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
+		android:layout_margin="8dp"
+		android:layout_marginTop="8dp"
 		app:layout_constraintBottom_toTopOf="@+id/button9"
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintHorizontal_bias="0.5"
 		app:layout_constraintStart_toStartOf="parent"
-		app:layout_constraintTop_toTopOf="parent" />
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintVertical_chainStyle="packed" />
 
 	<TextView
 		android:id="@+id/textView3"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
+		android:layout_margin="8dp"
 		android:text="X player's turn"
 		app:layout_constraintBottom_toBottomOf="parent"
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintHorizontal_bias="0.5"
 		app:layout_constraintStart_toStartOf="parent"
-		app:layout_constraintTop_toBottomOf="@+id/button9" />
+		app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 	<Button
 		android:id="@+id/button9"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
+		android:layout_margin="8dp"
 		android:text="START NEW GAME"
-		app:layout_constraintBottom_toTopOf="@+id/textView3"
+		app:layout_constraintBottom_toTopOf="@+id/textView"
 		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.5"
 		app:layout_constraintStart_toStartOf="parent"
 		app:layout_constraintTop_toBottomOf="@+id/include" />
+
+	<TextView
+		android:id="@+id/textView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="8dp"
+		android:text="DROP PHASE"
+		android:textSize="18sp"
+		android:textStyle="bold"
+		app:layout_constraintBottom_toTopOf="@+id/textView3"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/button9" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
