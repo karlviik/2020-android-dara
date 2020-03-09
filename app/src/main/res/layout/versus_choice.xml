@@ -6,7 +6,7 @@
 	android:layout_height="match_parent">
 
 	<RadioGroup
-		android:id="@+id/radioGroup2"
+		android:id="@+id/blueRadioGroup"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_marginStart="8dp"
@@ -18,34 +18,33 @@
 		app:layout_constraintTop_toTopOf="parent">
 
 		<RadioButton
-			android:id="@+id/radioButton"
+			android:id="@+id/blueRadioPlayer"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:text="Player"
 			android:theme="@style/BlueRadio"
 			android:checked="true"
-			app:layout_constraintBottom_toTopOf="@+id/radioButton2"
-			app:layout_constraintEnd_toStartOf="@+id/textView2"
+			app:layout_constraintBottom_toTopOf="@+id/blueRadioAi"
 			app:layout_constraintHorizontal_bias="0.5"
 			app:layout_constraintStart_toStartOf="parent"
 			app:layout_constraintTop_toTopOf="parent"
 			app:layout_constraintVertical_chainStyle="packed" />
 
 		<RadioButton
-			android:id="@+id/radioButton2"
+			android:id="@+id/blueRadioAi"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_marginTop="8dp"
 			android:text="AI"
 			android:theme="@style/BlueRadio"
 			app:layout_constraintBottom_toBottomOf="parent"
-			app:layout_constraintStart_toStartOf="@+id/radioButton"
-			app:layout_constraintTop_toBottomOf="@+id/radioButton"
+			app:layout_constraintStart_toStartOf="@+id/blueRadioPlayer"
+			app:layout_constraintTop_toBottomOf="@+id/blueRadioPlayer"
 			tools:layout_editor_absoluteX="59dp" />
 	</RadioGroup>
 
 	<RadioGroup
-		android:id="@+id/radioGroup"
+		android:id="@+id/redRadioGroup"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_marginStart="8dp"
@@ -59,7 +58,7 @@
 		app:layout_constraintTop_toTopOf="parent">
 
 		<RadioButton
-			android:id="@+id/radioButton3"
+			android:id="@+id/redRadioPlayer"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layoutDirection="rtl"
@@ -74,7 +73,7 @@
 			app:layout_constraintVertical_chainStyle="packed" />
 
 		<RadioButton
-			android:id="@+id/radioButton4"
+			android:id="@+id/redRadioAi"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_marginTop="8dp"
@@ -82,8 +81,8 @@
 			android:text="AI"
 			android:theme="@style/RedRadio"
 			app:layout_constraintBottom_toBottomOf="parent"
-			app:layout_constraintEnd_toEndOf="@+id/radioButton3"
-			app:layout_constraintTop_toBottomOf="@+id/radioButton3"
+			app:layout_constraintEnd_toEndOf="@+id/redRadioPlayer"
+			app:layout_constraintTop_toBottomOf="@+id/redRadioPlayer"
 			app:layout_constraintVertical_chainStyle="packed" />
 	</RadioGroup>
 
@@ -96,8 +95,8 @@
 		android:text="VS"
 		android:textSize="28sp"
 		app:layout_constraintBottom_toBottomOf="parent"
-		app:layout_constraintEnd_toStartOf="@+id/radioGroup2"
+		app:layout_constraintEnd_toStartOf="@+id/redRadioGroup"
 		app:layout_constraintHorizontal_bias="0.5"
-		app:layout_constraintStart_toEndOf="@+id/radioGroup"
+		app:layout_constraintStart_toEndOf="@+id/blueRadioGroup"
 		app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
